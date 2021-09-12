@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
   if (url == '/') {
     res.end(home)
   }
-  else if (url == '/about') {
+  else if (url == '/about') {\
     res.end(about)
   }
   else if (url == '/services') {
